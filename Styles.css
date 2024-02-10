@@ -1,0 +1,83 @@
+Styles.css
+*{
+				box-sizing: border-box;
+			}
+
+			h1 {
+				background-color: turquoise;
+				color: floralwhite;
+				text-align: center;
+				font-family: cursive;
+			}
+
+			h2{
+				border-bottom: solid;
+				font-family: monospace;
+				padding-left: 70px ;
+				justify-content: space-around;
+
+			}
+			h3{
+				text-align: center;
+				font-family: monospace;
+				justify-content: space-around
+			}
+
+			.navigation{
+			background-color: turquoise;
+            font-size: large;
+            color: floralwhite;
+            text-align: right; 
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            place-items: right;
+			}
+
+			.column {
+				padding-left: 70px;
+				float: left;
+				width: 50%;
+			}
+
+			.row:after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			.image{
+				padding-top: 15px;
+				width: 100%;
+				height: auto;
+
+			}
+
+			.profile{
+				display: flex;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+			}
+
+			ol {
+				padding-left: 85px;
+			}
+
+			@media screen and (max-width: 600px) {
+ 			.column {
+    			width: 100%;
+ 				}	
+ 			}
+ 			input,label{
+ 				text-align: center;
+ 				justify-content: right;
+ 				justify-items: right;
+ 				line-height: 30px;
+ 				margin-bottom: 20px;
+ 				margin-top: 20px;
+
+
+ 			}
+		
